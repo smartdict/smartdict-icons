@@ -8,34 +8,23 @@ Gem::Specification.new do |s|
   s.version = "0.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Potapov Sergey"]
-  s.date = "2012-03-22"
+  s.authors = ["Sergey Potapov"]
+  s.date = "2012-04-08"
   s.description = "Icons for Smartdict GUI application"
   s.email = "blake131313@gmail.com"
   s.extra_rdoc_files = [
-    "README.md"
+    "README.markdown"
   ]
   s.files = [
-    ".document",
-    ".rspec",
-    "GPL-LICENSE.txt",
-    "Gemfile",
-    "Gemfile.lock",
-    "README.md",
-    "Rakefile",
-    "VERSION",
-    "icons/interchange.png",
-    "icons/logo.png",
-    "lib/smartdict-icons.rb",
-    "lib/smartdict/icons.rb",
-    "spec/lib/smartdict/icons_spec.rb",
-    "spec/spec_helper.rb",
-    "spec/support/custom_matchers/have_icon.rb"
+    "./icons/interchange.png",
+    "./icons/logo.png",
+    "./lib/smartdict-icons.rb",
+    "./lib/smartdict/icons.rb"
   ]
   s.homepage = "http://github.com/greyblake/smartdict-icons"
-  s.licenses = ["GPL"]
+  s.licenses = ["GPL v2"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.15"
+  s.rubygems_version = "1.8.21"
   s.summary = "Icons for Smartdict"
 
   if s.respond_to? :specification_version then

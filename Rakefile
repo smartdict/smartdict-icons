@@ -16,12 +16,15 @@ Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "smartdict-icons"
   gem.homepage = "http://github.com/greyblake/smartdict-icons"
-  gem.license = "GPL"
+  gem.license = "GPL v2"
   gem.summary = %Q{Icons for Smartdict}
   gem.description = %Q{Icons for Smartdict GUI application}
   gem.email = "blake131313@gmail.com"
-  gem.authors = ["Potapov Sergey"]
+  gem.authors = ["Sergey Potapov"]
   # dependencies defined in Gemfile
+
+  gem.files = Dir.glob('./lib/**/*')
+  gem.files += Dir.glob('./icons/**/*')
 end
 Jeweler::RubygemsDotOrgTasks.new
 
